@@ -5,6 +5,7 @@ Project for the Artificial Intelligence Techniques Course
 ```py
 pip -m venv myvenv
 pip install -r requirements.txt
+source myvenv/bin/activate
 ```
 ## Run the project
 ```py
