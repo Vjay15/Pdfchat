@@ -29,7 +29,7 @@ Before starting, ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-repo/chat-with-pdf.git
+    git clone https://github.com/Vjay15/chat-with-pdf.git
     cd chat-with-pdf
     ```
 
