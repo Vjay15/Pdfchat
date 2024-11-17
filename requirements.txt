@@ -1,0 +1,5 @@
+langchain-mistralai==0.2.1
+langchain==0.3.7
+langchain-community==0.3.7
+PyMuPDF==1.24.13
+langchain-cohere==0.3.1
