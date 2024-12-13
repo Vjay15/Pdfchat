@@ -23,7 +23,7 @@ def get_response(question,key_1,key_2):
     # Define LLM
     model = ChatMistralAI(mistral_api_key=key_2)
     # Define prompt template
-    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context based on the predefined embeddings only:
+    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context based on the predefined embeddings only also mention the page numbers:
         <context>
         {context}
         </context>
@@ -44,8 +44,8 @@ uploaded_file = st.file_uploader('Upload an article', type='pdf')
 
 # Query text
 query_text = st.text_input('Enter your question:', placeholder = 'Please provide a short summary.', disabled=not uploaded_file)
-api_1 = st.text_input('Enter your Embedding AI Key: ', placeholder = 'Please enter the key', disabled=not uploaded_file)
-api_2 = st.text_input('Enter your LLM AI Key:', placeholder = 'Please provide enter the key.', disabled=not uploaded_file)
+api_1 = st.text_input('Enter your Cohere Embedding API Key: ', placeholder = 'Please enter the key', disabled=not uploaded_file)
+api_2 = st.text_input('Enter your Mistral LLM API Key:', placeholder = 'Please provide enter the key.', disabled=not uploaded_file)
 
 # Form input and query
 result = []
