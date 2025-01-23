@@ -3,6 +3,7 @@
 ## Overview
 
 **PDFChat** is a Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and engage in interactive chat sessions to query information from the documents. This tool leverages AI techniques to parse and understand the content of PDFs, enabling seamless and precise information retrieval.
+
 <img src="Screenshot.png" alt="A screenshot of the web app">
 ---
 
